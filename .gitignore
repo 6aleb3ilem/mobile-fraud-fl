@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data and models
+/data/raw/*.csv
+/data/raw/*.jsonl
+/data/processed/*
+/data/models/*.joblib
+/data/models/*.json
+/data/models/*.pkl
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/models/.gitkeep
+
+# Logs/artifacts
+*.log
+*.out
+artifacts/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Env files
+.env
